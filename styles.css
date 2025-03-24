@@ -1,0 +1,134 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Subtle light gray background */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header (H1) Styling */
+h1 {
+    color: #020000; /* Bright blue for emphasis */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.navbar-nav .nav-link {
+    color: #007bff; /* Bright blue links */
+    font-weight: 500;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+.navbar-nav .nav-link.active {
+    color: #0056b3;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Buttons Styling */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3; /* Darker blue hover */
+}
+
+/* Card Styling */
+.card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: none; /* Remove border for a clean look */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ffffff; /* White background */
+}
+.card-title {
+    font-weight: bold;
+    color: #333; /* Consistent dark text */
+}
+.card-text {
+    color: #555; /* Softer gray for contrast */
+    font-size: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888; /* Soft gray */
+    border-top: 1px solid #ddd; /* Subtle top border */
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+form .form-label {
+    font-weight: bold;
+    color: #333;
+}
+form .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue shadow on focus */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+}
+.profile-picture {
+    width: 300px; /* Sets width to medium size */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Adds rounded corners for a stylish look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Gives a subtle shadow */
+    margin: 20px auto; /* Centers the image vertically */
+    display: block; /* Ensures it's centered horizontally */
+}
+/* Dark Mode for the body */
+body.dark-mode {
+    background-color: #333; /* Dark background */
+    color: #f8f9fa; /* Light text */
+}
+
+/* Dark Mode for cards */
+.card.dark-mode {
+    background-color: #444; /* Dark card background */
+    color: #f8f9fa; /* Light card text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+}
+
+/* Optional: Dark Mode for Navbar */
+.navbar.dark-mode {
+    background-color: #222; /* Dark navbar background */
+    border-bottom: 1px solid #444; /* Subtle border for navbar */
+}
+
